@@ -25,6 +25,13 @@ curl -XPOST -H 'Content-Type: application/json; charset=UTF-8' -H 'X-Accept: app
 {"access_token":"abcd1234-ab12-cd34-1234-abc123","username":"yourusername"}
 ```
 
+To be able to run the script, save the consumer key and access token in a `.env` file (and don't commit the file to version control...):
+
+```
+CONSUMER_KEY="12345-abcd1234abcd1234abcd1234"
+ACCESS_TOKEN="abcd1234-ab12-cd34-1234-abc123"
+```
+
 
 ## Running the script
 
