@@ -24,3 +24,13 @@ Finally, exchange the auth code for an access token:
 curl -XPOST -H 'Content-Type: application/json; charset=UTF-8' -H 'X-Accept: application/json' https://getpocket.com/v3/oauth/authorize -d '{"consumer_key":"12345-abcd1234abcd1234abcd1234", "code":"abcd1234-ab12-1234-ab12-abc123"}'
 {"access_token":"abcd1234-ab12-cd34-1234-abc123","username":"yourusername"}
 ```
+
+
+## Running the script
+
+This script requires Python 3.6+ and [Pipenv](https://docs.pipenv.org/):
+
+```sh
+pipenv install
+pipenv run python -m count
+```
